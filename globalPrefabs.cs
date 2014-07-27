@@ -5,8 +5,11 @@
 //Instructions for use: http://prof.johnpile.com/2014/07/20/globalprefabs
 
 using UnityEngine;
-using UnityEditor;
 using System.Collections.Generic;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class globalPrefabs : ScriptableObject
 {
